@@ -21,5 +21,7 @@ int main(){
   cout<<"Object 2: "<<endl;
   obj2->display();
 
+  delete obj2;
+
   return 0;
 }
